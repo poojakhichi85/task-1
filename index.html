@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <ul class="sidebar">
+                 <li><a href="#" onclick=hidesidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li> 
+                <li class="link"><a href="/HOME"> HOME</a></li>
+                <li class="link"><a href="/ABOUT US">ABOUT US</a></li>
+                <li class="link"><a href="/DESIGN">DESIGN</a></li>
+                <li class="link"><a href="/CONTACT">CONTACT</a></li>
+            </ul>
+            <img src="logo.jpg" class="logo">
+            <ul id="section1">
+                <li><a href="/HOME"> HOME</a></li>
+                <li><a href="/ABOUT US">ABOUT US</a></li>
+                <li><a href="/DESIGN">DESIGN</a></li>
+                <li><a href="/CONTACT">CONTACT</a></li>
+               <li onclick=showsidebar()><a href=#><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></svg></a></li> 
+            </ul>
+            
+        </div>
+    <div class="content">
+        <h1>CREATE YOUR HOUSE</h1>
+        <p>Stunning interior design services, now within reach.,<br>and connect with us to get latest update</p>
+        <div >
+            <button type="button"><span ></span> MORE  </button>
+            <button type="button"><span ></span> SUBSCRIBE </button>
+        </div>
+    </div>
+
+     <script>
+        function showsidebar() {
+            const sidebar =document.querySelector('.sidebar')
+            sidebar.style.display ='flex'
+        }
+        function hidesidebar() {
+            const sidebar =document.querySelector('.sidebar')
+            sidebar.style.display ='none'
+        }
+    </script> 
+     </div>
+
+     <section class="container" id="about">
+        <div class="about-im">
+    <img src="top.jpeg" alt="about">
+      </div>
+    <div class="about_cont">
+        <h3>ABOUT US</h3>
+        <br>
+        <h2 class="header">5 Years Experience In India</h2>
+        <br>
+        <p >Bring your design home with ease. Our designers source from 25+ home brands, so no two spaces are ever alike.<br> DESIGN STUDIO proprietary platform with a simple consolidated checkout and never overpay with our price guarantee.
+        <br> With our experience designers will construct your dream into reality. </p>
+        <div class="grid">
+            <div class="card">
+                <br>
+                <h4>PREVIOUS PROJECT</h4>
+                <p>19+</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <h4>EXPERIENCE</h4>
+                    <p>5+</p>
+                </div>
+                <div class="grid">
+                    <div class="card">
+                        <h4>ONGOING PROJECT</h4>
+                        <p>7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+<section id="projects" class="projects-section">
+    <h2>Our Projects</h2>
+    <div class="projects-container">
+        <div class="project">
+            <img src="living.jpg" alt="living">
+            <div class="project-info">
+                <h3>Modern Living Room</h3>
+                <p>Stylish and contemporary living room design with modern furniture and decor.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="bed2.jpg" alt="bed">
+            <div class="project-info">
+                <h3>Elegant Bedroom</h3>
+                <p>A luxurious bedroom design with elegant furnishings and soothing color scheme.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-container">
+        <div class="project">
+            <img src="kitchene.jpg" alt="living">
+            <div class="project-info">
+                <h3>kitchen</h3>
+                <p>Stylish and contemporary kitchen design with modern furniture and decor.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="backyard.jpg" alt="bed">
+            <div class="project-info">
+                <h3>Backyard</h3>
+                <p>A luxurious Backyard design with open space and bornfire sitting area and color scheme.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+         <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <br>
+                    <p>We are a company dedicated to providing the best services to our customers.</p>
+                </div>
+                    <div class="media">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <br>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <br>
+                        <li><a href="#">Services</a></li>
+                        <br>
+                        <li><a href="#">Contact</a></li>
+                        <br>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <br>
+                    <p>Email: designstudio@.com</p>
+                    <p>Phone: +91244567890</p>
+                    <p>Address: 275,indrapuri colony,indore,mp</p>
+                </div>
+                </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Company Name. All rights reserved.</p>
+            </div>
+        </footer>
+     
+   
+   
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
